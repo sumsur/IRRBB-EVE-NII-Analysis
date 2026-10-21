@@ -1,6 +1,6 @@
-# IRRBB Analysis — NII & EVE Sensitivity
+#IRRBB Analysis — NII & EVE Sensitivity
 
-## Project Overview
+##Project Overview
 
 This project focuses on the analysis of Interest Rate Risk in the Banking Book (IRRBB) using Python.
 
@@ -8,7 +8,7 @@ The objective is to assess how changes in interest rates affect a bank's Net Int
 
 The project uses synthetic banking data to demonstrate scenario analysis, interest rate sensitivity calculations and financial risk visualisation.
 
-## Project Objectives
+##Project Objectives
 
 - Analyse NII sensitivity under different interest rate scenarios.
 - Assess EVE sensitivity to parallel and non-parallel yield curve shifts.
@@ -16,7 +16,7 @@ The project uses synthetic banking data to demonstrate scenario analysis, intere
 - Compare the potential impact of different interest rate movements.
 - Present the results through clear, reproducible Python visualisations.
 
-## Methodology
+##Methodology
 
 Net Interest Income (NII)
 
@@ -34,7 +34,7 @@ The change in EVE is expressed relative to the assumed capital base:
 
 This metric illustrates the potential significance of changes in economic value in relation to capital.
 
-## Interest Rate Scenarios
+##Interest Rate Scenarios
 
 The model includes five scenarios:
 
@@ -47,34 +47,34 @@ Flattener| Short-term rates increase while long-term rates decrease
 
 The non-parallel scenarios apply different shocks to short- and long-term rates to illustrate changes in the shape of the yield curve.
 
-## Results and Visualisations
+##Results and Visualisations
 
-### Net Interest Income (NII) Sensitivity
+###Net Interest Income (NII) Sensitivity
 
 The chart compares modelled NII across the selected interest rate scenarios.
 
-![NII Sensitivity Analysis](charts/nii_sensitivity.png)
+![NII Sensitivity Analysis](nii_sensitivity.png)
 
-### Economic Value of Equity (EVE) Sensitivity
+###Economic Value of Equity (EVE) Sensitivity
 
 The chart illustrates the impact of different interest rate shocks on the modelled economic value of the banking book.
 
-![EVE Sensitivity Analysis"](charts/eve_sensitivity.png)
+![EVE Sensitivity Analysis](eve_sensitivity.png)
 
-### Change in EVE Relative to Capital
+###Change in EVE Relative to Capital
 
 This chart presents the change in EVE as a percentage of the assumed capital base, supporting a relative assessment of the modelled impact.
 
-![Change in EVE Relative to Capital"](charts/delta_eve_capital.png)
+![Change in EVE Relative to Capital](delta_eve_capital.png)
 
-## Technology Stack
+##Technology Stack
 
 - Python — financial calculations and scenario modelling
 - Pandas — data processing and analysis
 - Matplotlib — data visualisation
 - CSV — input data storage
 
-## Project Structure
+##Project Structure
 
 IRRBB-Analysis/
 ├── data/
@@ -90,7 +90,7 @@ IRRBB-Analysis/
 ├── requirements.txt
 └── README.md
 
-## How to Run
+##How to Run
 
 Prerequisites
 
@@ -110,7 +110,7 @@ python main.py
 
 The script processes the input data, performs the scenario calculations and generates the analysis outputs and charts, provided the chart-saving code is included in "main.py".
 
-## Key Takeaways
+##Key Takeaways
 
 This project demonstrates how Python can be applied to banking risk management to:
 
@@ -119,7 +119,7 @@ This project demonstrates how Python can be applied to banking risk management t
 - Express changes in EVE relative to a capital assumption.
 - Translate financial risk calculations into visual outputs that support interpretation and communication.
 
-## Disclaimer
+##Disclaimer
 
 This project uses synthetic data and simplified modelling assumptions for educational and portfolio demonstration purposes. It is not a complete regulatory IRRBB framework and should not be interpreted as an official bank risk assessment or a regulatory capital calculation.
 
