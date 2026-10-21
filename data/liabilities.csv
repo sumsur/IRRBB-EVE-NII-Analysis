@@ -1,0 +1,7 @@
+liability_type,amount,interest_rate,rate_type,repricing_term
+Retail demand deposits,36000000,0.005,Variable,Short
+Retail term deposits,24000000,0.025,Fixed,Short
+Corporate demand deposits,20000000,0.015,Variable,Short
+Corporate term deposits,16000000,0.03,Fixed,Short
+Interbank funding,10000000,0.035,Variable,Short
+Long-term wholesale funding,10000000,0.032,Fixed,Long

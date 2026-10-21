@@ -1,0 +1,7 @@
+asset_type,amount,interest_rate,rate_type,repricing_term
+Retail mortgages,50000000,0.045,Fixed,Long
+Corporate loans,36000000,0.055,Variable,Short
+Consumer loans,14000000,0.065,Fixed,Short
+Government bonds,24000000,0.035,Fixed,Long
+Interbank placements,16000000,0.032,Variable,Short
+Cash and central bank reserves,10000000,0.02,Variable,Short

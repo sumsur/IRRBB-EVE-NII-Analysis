@@ -1,0 +1,13 @@
+instrument_type,instrument_name,cash_flow,tenor_years
+Asset,Retail mortgages,25000000,5
+Asset,Corporate loans,18000000,1
+Asset,Consumer loans,7000000,2
+Asset,Government bonds,12000000,5
+Asset,Interbank placements,8000000,0.25
+Asset,Cash and central bank reserves,5000000,0.25
+Liability,Retail demand deposits,18000000,0.25
+Liability,Retail term deposits,12000000,1
+Liability,Corporate demand deposits,10000000,0.25
+Liability,Corporate term deposits,8000000,1
+Liability,Interbank funding,5000000,0.25
+Liability,Long-term wholesale funding,5000000,5
