@@ -89,14 +89,14 @@ for scenario, shocks in scenarios.items():
 results_df = pd.DataFrame(results)
 
 ##Procedure for EVE
-capital = 34_000_000
+capital = 100_000_000
 
 eve_shocks = {
     "Base case": (0.00, 0.00),
-    "Rates up (+100 bps)": (0.01, 0.01),
-    "Rates down (-100 bps)": (-0.01, -0.01),
-    "Steepener": (-0.01, 0.01),
-    "Flattener": (0.01, -0.01)
+    "Rates up (+100 bps)": (0.0225, 0.0225),
+    "Rates down (-100 bps)": (-0.0225, -0.0225),
+    "Steepener": (-0.035, 0.02),
+    "Flattener": (0.035, -0.02)
 }
 
 eve_results = []

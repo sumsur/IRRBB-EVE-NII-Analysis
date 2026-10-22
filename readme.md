@@ -36,14 +36,14 @@ This metric illustrates the potential significance of changes in economic value 
 
 ## Interest Rate Scenarios
 
-The model includes five scenarios:
+The model for EVE includes five scenarios:
 
 Scenario| Description
 Base Case| Reference scenario without an interest rate shock
-Rates Up (+100 bps)| Parallel upward shift in interest rates
-Rates Down (-100 bps)| Parallel downward shift in interest rates
-Steepener| Short-term rates decrease while long-term rates increase
-Flattener| Short-term rates increase while long-term rates decrease
+Rates Up (+225 bps)| Parallel upward shift in interest rates
+Rates Down (-225 bps)| Parallel downward shift in interest rates
+Steepener (-350 and -200 bps)| Short-term rates decrease while long-term rates increase
+Flattener (350 and 200 bps)| Short-term rates increase while long-term rates decrease
 
 The non-parallel scenarios apply different shocks to short- and long-term rates to illustrate changes in the shape of the yield curve.
 
